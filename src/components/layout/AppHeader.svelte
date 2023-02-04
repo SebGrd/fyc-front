@@ -1,5 +1,5 @@
 <script>
-    import { Tabs } from "attractions";
+    import { Button, Tabs } from "attractions";
 
     export let currentPage = 'home';
 </script>
@@ -7,5 +7,5 @@
 <header>
     <a href="/">FYC Overflow</a>
     <Tabs name="router" items={["home", "search"]} bind:value={currentPage}/>
-    <button href="/login">Login</button>
+    <Button href="/login">Login</Button>
 </header>
